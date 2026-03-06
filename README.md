@@ -36,8 +36,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 Enable IIS in Windows with CGI.
 You can find this in 
+<br/>
 Control Panel -> Uninstall a program -> Turn windows features on or off -> Internet Information Services -> World Wide Web Services -> Application Development Features -> CGI
-This allows for osTicket to run in a local web server on your computer.
+<br/>
+  This allows for osTicket to run in a local web server on your computer.
 </p>
 <br />
 
