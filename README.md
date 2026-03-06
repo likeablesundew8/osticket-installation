@@ -31,7 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81ea8226-1b0f-4443-938d-432e6a702e5d" />
 </p>
 <p>
 Enable IIS in Windows with CGI.
@@ -44,16 +46,16 @@ Control Panel -> Uninstall a program -> Turn windows features on or off -> Inter
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="462" height="133" alt="image" src="https://github.com/user-attachments/assets/81efa0e9-1591-4510-a214-5918162bd52c" />
 </p>
 <p>
 Install Dependencies:
 <br/>
-<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS
+<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS (x64)
 <br/>
-<a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module
+<a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64)
 <br/>
-<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145&msockid=1e8f2fa9e4ba6a53358838bde5876b2f">VC_redist.x86.exe
+<a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version">Visual C++ Redistributable
 <br/>
 <a href="https://dev.mysql.com/downloads/mysql/">MySQL
 <br/>
@@ -62,12 +64,12 @@ Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.ph
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0a4a2b3-9087-4335-912f-2191536f7eac" />
 </p>
 <p>
 Open IIS as an Admin.
 <br/>
-Register PHP in the IIS.
+Register PHP in the IIS. Double click "PHP Manager" -> Register new PHP version -> Path to "php-cgi" (Found where PHP was extracted. This example is in C:\PHP)
 <br/>
 Reload the web server by right clicking the server in the top left stopping, then starting.
 </p>
