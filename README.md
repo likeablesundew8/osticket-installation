@@ -47,11 +47,16 @@ Control Panel -> Uninstall a program -> Turn windows features on or off -> Inter
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install Dependencies
-<a href="https://github.com/phpmanager/phpmanager">PHP Manager for IIS
+Install Dependencies:
+<br/>
+<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS
+<br/>
 <a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module
+<br/>
 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145&msockid=1e8f2fa9e4ba6a53358838bde5876b2f">VC_redist.x86.exe
+<br/>
 <a href="https://dev.mysql.com/downloads/mysql/">MySQL
+<br/>
 Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.php">PHP into it
 </p>
 <br />
@@ -60,6 +65,26 @@ Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.ph
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open IIS as an Admin.
+<br/>
+Register PHP in the IIS.
+<br/>
+Reload the web server by right clicking the server in the top left stopping, then starting.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In IIS on the left, click sites -> Default -> osTicket -> on the right, click "Browse *:80" to open the site.
+<br/>
+To enable the imap and intl extension, in IIS on the left click sites -> Default -> osTicket
+<br/>
+Double click PHP Manager
+<br/>
+Click "Enable or disable an extension". Enable "php_imap.dll" and "php_intl.dll"
+<br/>
+Reload the web server by right clicking the server in the top left stopping, then starting.
 </p>
 <br />
