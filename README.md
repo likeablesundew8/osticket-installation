@@ -88,3 +88,79 @@ Click "Enable or disable an extension". Enable "php_imap.dll" and "php_intl.dll"
 Reload the web server by right clicking the server in the top left stopping, then starting.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Rename "ost-sampleconfig.php" to "ost-config.php"
+<br/>
+The default path is C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+<br/>
+Right click "os-config.php" -> Properties -> Security tab -> Advanced -> Disable inheritance -> Add -> Type the following name in the 3rd box "" -> Check Names -> OK -> Check the box "Full control"
+</p>
+<br/>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In the browser, go through the setup.
+</p>
+<br/>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<a href="https://www.heidisql.com/download.php">Install HeidiSQL
+<br/>
+Open and create a new session. The user is "root", and the password is what you set during the mySQL setup
+<br/>
+Create a database named "osTicket"
+</p>
+<br/>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finish setting up osTicket in the browser
+<br/>
+The mySQL login user is "root", and the password is what was set in the mySQL setup
+<br/>
+Click "Install Now!"
+</p>
+<br/>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Your help desk login page is at http://localhost/osTicket/scp/login.php
+<br/>
+</p>
+<br/>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Your end user login page is at http://localhost/osTicket/ 
+<br/>
+</p>
+<br/>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Final steps:
+<br/>
+Delete: C:\inetpub\wwwroot\osTicket\setup
+<br/>
+Set the config file permissions to Read only
+<br/>
+
+</p>
+<br/>
