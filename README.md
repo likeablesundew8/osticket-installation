@@ -159,7 +159,7 @@ Final steps:
 <br/>
 Delete: C:\inetpub\wwwroot\osTicket\setup
 <br/>
-Set the config file permissions to Read only
+Set the config file permissions to Read only at C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <br/>
 
 </p>
