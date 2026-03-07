@@ -131,7 +131,7 @@ In the browser, go through the setup of the System Settings and create the Admin
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23adad85-a678-411e-8992-537e556e0378" />
 </p>
 <p>
-<a href="https://www.heidisql.com/download.php">Install HeidiSQL. If prompted, install for yourself only, not all users.
+Install <a href="https://www.heidisql.com/download.php">HeidiSQL</a>. If prompted, install for yourself only, not all users.
 <br/>
 Open and create a new session. The user is "root", and the password is what you set during the mySQL setup
 <br/>
