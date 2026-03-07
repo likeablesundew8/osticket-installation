@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-<iframe width="560" height="315" src="https://youtu.be/_XGpWhQGhZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/_XGpWhQGhZQ">Video Guide</a> (Reccomended)
 
 <h2>Environments and Technologies Used</h2>
 
