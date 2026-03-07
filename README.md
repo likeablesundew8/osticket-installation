@@ -55,7 +55,7 @@ Install Dependencies:
 <br/>
 <a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64)
 <br/>
-<a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version">Visual C++ Redistributable
+<a href="https://visualstudio.microsoft.com/downloads/">Visual C++ Redistributable (x86)
 <br/>
 <a href="https://dev.mysql.com/downloads/mysql/">MySQL
 <br/>
@@ -69,37 +69,53 @@ Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.ph
 <p>
 Open IIS as an Admin.
 <br/>
-Register PHP in the IIS. Double click "PHP Manager" -> Register new PHP version -> Path to "php-cgi" (Found where PHP was extracted. This example is in C:\PHP)
+Register PHP in the IIS. Double click "PHP Manager" -> Register new PHP version -> Path to "C:\PHP\php-cgi"
 <br/>
 Reload the web server by right clicking the server in the top left stopping, then starting.
+<br/>
+Unzip <a href="https://github.com/osTicket/osTicket/releases/tag/v1.18.3">osTicket</a> and copy the upload folder into C:\inetpub\wwwroot
+<br/>
+Rename "upload" to "osTicket" EXACTLY. (This directly affects the url used to connect to your osTicket installation.)
+<br/>
+Restart the web server again
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51608ba6-cfa8-4ed8-ac03-e783a59838e0" />
 </p>
 <p>
-In IIS on the left, click sites -> Default -> osTicket -> on the right, click "Browse *:80" to open the site.
+Reopen IIS then on the left, click sites -> Default -> osTicket -> on the right, click "Browse *:80" to open the site.
+</p>
 <br/>
-To enable the imap and intl extension, in IIS on the left click sites -> Default -> osTicket
+
+<p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48f35471-8b5e-4f03-a6bb-ced4fb636f0f" />
+</p>
+<p>
+To enable the intl extension for improved localization, in IIS go to sites -> Default -> osTicket
 <br/>
 Double click PHP Manager
 <br/>
-Click "Enable or disable an extension". Enable "php_imap.dll" and "php_intl.dll"
+Click "Enable or disable an extension". Enable "php_intl.dll"
 <br/>
 Reload the web server by right clicking the server in the top left stopping, then starting.
+<br/>
+The <a href="https://pecl.php.net/package/imap">Imap</a> extension is used for email processing. However, it is no longer required due to different methods used for email. 
+<br/>
+The <a href="https://pecl.php.net/package/APCu">APCu</a> extension improves performance.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9aa1cdf4-699a-4521-a6f4-afd407a12338" />
 </p>
 <p>
 Rename "ost-sampleconfig.php" to "ost-config.php"
 <br/>
 The default path is C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 <br/>
-Right click "os-config.php" -> Properties -> Security tab -> Advanced -> Disable inheritance -> Add -> Type the following name in the 3rd box "" -> Check Names -> OK -> Check the box "Full control"
+Right click "os-config.php" -> Properties -> Security tab -> Advanced -> Disable inheritance -> Remove all inherited permissions -> Add -> Select a principal -> Type "Everyone" into the 3rd box -> Check Names -> OK -> Check the box "Full control" -> OK -> Apply
 </p>
 <br/>
 
