@@ -55,7 +55,7 @@ Install Dependencies:
 <br/>
 <a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64 .msi)</a>
 <br/>
-<a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version">Visual C++ Redistributable (x86 .exe)</a>
+<a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version">Visual C++ Redistributable (x64 .exe)</a>
 <br/>
 <a href="https://dev.mysql.com/downloads/mysql/">MySQL (x64 .msi)</a>
 <br/>
