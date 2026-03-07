@@ -57,7 +57,7 @@ Install Dependencies:
 <br/>
 <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version">Visual C++ Redistributable (x64 .exe)</a>
 <br/>
-<a href="https://dev.mysql.com/downloads/mysql/">MySQL (x64 .msi)</a>
+<a href="https://dev.mysql.com/downloads/mysql/">MySQL (x64 .zip Non Thread Safe)</a>
 <br/>
 Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.php">PHP (x64 .msi)</a> into it
 </p>
