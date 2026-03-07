@@ -120,39 +120,40 @@ Right click "os-config.php" -> Properties -> Security tab -> Advanced -> Disable
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="406" height="621" alt="image" src="https://github.com/user-attachments/assets/aebc3629-f59e-4214-b502-3d8c06ee8a7a" />
 </p>
 <p>
-In the browser, go through the setup.
+In the browser, go through the setup of the System Settings and create the Admin User.
 </p>
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23adad85-a678-411e-8992-537e556e0378" />
 </p>
 <p>
-<a href="https://www.heidisql.com/download.php">Install HeidiSQL
+<a href="https://www.heidisql.com/download.php">Install HeidiSQL. If prompted, install for yourself only, not all users.
 <br/>
 Open and create a new session. The user is "root", and the password is what you set during the mySQL setup
 <br/>
-Create a database named "osTicket"
+Right click the "Unnamed" button on the left and create a database named "osTicket"
 </p>
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="808" height="334" alt="image" src="https://github.com/user-attachments/assets/74d563e6-2c99-479a-9b7d-1e97c69a446e" />
 </p>
 <p>
 Finish setting up osTicket in the browser
 <br/>
-The mySQL login user is "root", and the password is what was set in the mySQL setup
+The mySQL database is osTicket as set in the HeidiSQL setup, login user is "root", and the password is what was set in the mySQL setup
 <br/>
 Click "Install Now!"
 </p>
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1917" height="1039" alt="image" src="https://github.com/user-attachments/assets/1cad9a8e-dc5e-46f3-ba77-834308d5ad01" />
+
 </p>
 <p>
 Your help desk login page is at http://localhost/osTicket/scp/login.php
@@ -161,7 +162,7 @@ Your help desk login page is at http://localhost/osTicket/scp/login.php
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/8cee233a-8850-4229-95d0-275075131879" />
 </p>
 <p>
 Your end user login page is at http://localhost/osTicket/ 
@@ -170,10 +171,10 @@ Your end user login page is at http://localhost/osTicket/
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc12a675-ba8f-412c-9020-613e2e8fb4b2" />
 </p>
 <p>
-Final steps:
+Important final steps:
 <br/>
 Delete: C:\inetpub\wwwroot\osTicket\setup
 <br/>
