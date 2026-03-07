@@ -22,11 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- <a href="https://github.com/osTicket/osTicket">osTicket
-- <a href="https://www.php.net/">PHP
-- <a href="https://www.heidisql.com">HeidiSQL (or another MySQL interface)
-- <a href="https://www.mysql.com/">MySQL database
-- <a href="https://www.iis.net/">HTTP server using Microsoft IIS
+- <a href="https://github.com/osTicket/osTicket">osTicket</a>
+- <a href="https://www.php.net/">PHP</a>
+- <a href="https://www.heidisql.com">HeidiSQL</a> (or another MySQL interface)
+- <a href="https://www.mysql.com/">MySQL database</a>
+- <a href="https://www.iis.net/">HTTP server using Microsoft IIS</a>
 
 <h2>Installation Steps</h2>
 
@@ -51,15 +51,15 @@ Control Panel -> Uninstall a program -> Turn windows features on or off -> Inter
 <p>
 Install Dependencies:
 <br/>
-<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS (x64)
+<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS (x64)</a>
 <br/>
-<a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64)
+<a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64)</a>
 <br/>
-<a href="https://visualstudio.microsoft.com/downloads/">Visual C++ Redistributable (x86)
+<a href="https://visualstudio.microsoft.com/downloads/">Visual C++ Redistributable (x86)</a>
 <br/>
-<a href="https://dev.mysql.com/downloads/mysql/">MySQL
+<a href="https://dev.mysql.com/downloads/mysql/">MySQL</a>
 <br/>
-Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.php">PHP into it
+Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.php">PHP</a> into it
 </p>
 <br />
 
