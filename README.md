@@ -51,15 +51,15 @@ Control Panel -> Uninstall a program -> Turn windows features on or off -> Inter
 <p>
 Install Dependencies:
 <br/>
-<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS (x64)</a>
+<a href="https://github.com/phpmanager/phpmanager/releases">PHP Manager for IIS (x64 .msi)</a>
 <br/>
-<a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64)</a>
+<a href="https://www.iis.net/downloads/microsoft/url-rewrite">Rewrite Module (x64 .msi)</a>
 <br/>
-<a href="https://visualstudio.microsoft.com/downloads/">Visual C++ Redistributable (x86)</a>
+<a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version">Visual C++ Redistributable (x86 .exe)</a>
 <br/>
-<a href="https://dev.mysql.com/downloads/mysql/">MySQL</a>
+<a href="https://dev.mysql.com/downloads/mysql/">MySQL (x64 .msi)</a>
 <br/>
-Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.php">PHP</a> into it
+Create a directory in C:\PHP and unzip <a href="https://www.php.net/downloads.php">PHP (x64 .msi)</a> into it
 </p>
 <br />
 
