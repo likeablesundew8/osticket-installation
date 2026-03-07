@@ -73,7 +73,7 @@ Register PHP in the IIS. Double click "PHP Manager" -> Register new PHP version 
 <br/>
 Reload the web server by right clicking the server in the top left stopping, then starting.
 <br/>
-Unzip <a href="https://github.com/osTicket/osTicket/releases/tag/v1.18.3">osTicket</a> and copy the upload folder into C:\inetpub\wwwroot
+Unzip <a href="https://github.com/osTicket/osTicket/releases/">osTicket</a> and copy the upload folder into C:\inetpub\wwwroot
 <br/>
 Rename "upload" to "osTicket" EXACTLY. (This directly affects the url used to connect to your osTicket installation.)
 <br/>
